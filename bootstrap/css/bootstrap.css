@@ -79,6 +79,10 @@ hr {
   -moz-box-sizing: content-box;
        box-sizing: content-box;
 }
+padding {
+	height= 1px;
+	
+}
 
 mark {
   color: #000;
@@ -4767,7 +4771,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-fixed-top {
   top: 0;
-  border-width: 0 0 1px;
+  border-width: 0 0 3px;
+}
+.navbar-fixed-top-white {
+  top: 0;
+  border-width: 0 0 20px;
+  border-color: "ffffff" !important;
+  background: "ffffff" !important;
 }
 
 .navbar-fixed-bottom {
@@ -4995,6 +5005,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #ffffff;
   border-color: #eeeeee;
 }
+
+
 
 .navbar-default .navbar-brand {
   color: #000000;
@@ -6980,6 +6992,11 @@ button.close {
 
 @-ms-viewport {
   width: device-width;
+  height: device-height;
+}
+@viewport {
+  width: device-width;
+  height: device-height;
 }
 
 .visible-xs,
